@@ -1,0 +1,273 @@
+/* header part css start*/
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    background-color: black;
+    width: 1000px;
+    border-radius: 10px;
+    margin-left: 140px;
+    
+}
+.container :hover{
+    color: lightcoral;
+    
+
+}
+.p1{
+    color: white;
+    padding-left: 40px;
+
+}
+h2{
+    font-size: 50px;
+    padding-left: 40px;
+    color: white;
+}
+.btna{
+    padding: 20px;
+    font-size: 15px;
+    background-color: crimson;
+    border-radius: 10px;
+    margin-left: 40px;
+}
+
+/* header part css end */
+
+/* main part start */
+
+.icon{
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.t-btn{
+    padding: 4px 10px;
+    margin: 10px;
+
+}
+.paragraph{
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.btn00{
+    padding: 20px 10px;
+    margin-left: 70px;
+    background-color: black;
+    border-radius: 20px;
+    margin-top: 60px;
+}
+.btn-1, .btn-2, .btn-3{
+    font-size: 20px;
+    background-color: crimson;
+    border-radius: 10px;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+
+}
+#btn-1{
+    background-color: aqua;
+}
+.b-3{
+    text-decoration: none;
+    color: black;
+}
+.gerf{
+    font-size: 20px;
+    word-spacing: 10px;
+}
+.vs{
+    font-size: 20px;
+    
+}
+.sch{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+    margin-top: 70px;
+    margin-left: 20px;
+}
+.cup{
+    display: flex;
+    
+    width: 90%;
+}
+
+/* Main part end */
+
+/* footer part css start */
+
+.f-div{
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(29, 26, 27);
+}
+
+#goal{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 40px;
+    color: crimson;
+    
+}
+hr{
+    width: 70%;
+    
+}
+
+.f-span{
+    text-align: center;
+    font-size: 20px;
+    color: crimson;
+    display: flex;
+    padding: 60px 100px;
+    
+
+}
+p{
+    padding-left: 50px;
+    color: crimson;
+}
+.social{
+    font-size: 30px;
+    color: white;
+    margin-left: 45%;
+}
+
+/* footer part end */
+
+
+/* responsive part start */
+/* tablet device */
+
+
+@media screen and (min-width:668px) and (max-width:992px){
+        
+    .container{
+        display: flex;
+        width: 700px;
+        margin-left: 27px;
+        
+
+    }
+    .btna{
+        margin-bottom: 20px;
+    }
+    /* header end */
+    .cup{
+        display: block;
+        width: 90%;
+    }
+
+    .btn00{
+        display: flex;
+        width: 90%;
+        margin-left: -10px;
+    }
+    .sch{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 20px;
+    }
+
+    .f-span{
+        display: inline-flex;
+        max-width: 100%;
+        text-align: center;
+        word-spacing: 20px;
+        margin-left: -90px;
+    }
+    
+}
+/* end tablet device for responsive */
+
+
+/* Responsive for mobile device */
+
+@media screen and (max-width:667px) {
+   
+
+    .container{
+       display: block;
+       width: 90%;
+       text-align: center;
+       
+       
+    }
+    #h{
+       text-align: center;
+       padding: 20px;
+       font-size: 30px;
+    }
+    .p1{
+       padding: 20px;
+       text-align: center;
+    }
+    .btna{
+        
+       padding: 10px;
+       margin-left: -40px;
+   
+    }
+    /* header close */
+    .cup{
+        display: block;
+
+       
+    }
+    .btn00{
+        margin-top: 20px;
+        width: 70%;
+        margin-left: 140px;
+        
+    }
+    .sch{
+        width: 70%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 150px;
+    }
+
+   
+    
+       /* main end */
+   
+    .f-div{
+       width: 90%;
+       margin-left: 160px;
+       text-align: center;
+       height: 30%;
+    }
+    .f-span{
+       display: block;
+       margin-left: -100px;
+       margin-top: 70px;
+
+    }
+    .social{
+       margin-left: -70px;
+    }
+   
+       
+   }
+   
+   /* End responsive for mobile device */
+   
+   
+   
+   
+   
+   
+   
+   
+   
+  
+
